@@ -197,7 +197,7 @@ public class TravelOptimizerImpl implements ITravelOptimizer {
 
     private String generateAISummary(List<Route> routes, Result best) {
         try {
-            String token = "REMOVEDFaEfTcXVKtcnjLiAIUEfYCKHFoXYFNnuJs";  //hugging face token
+            String token = "";  //hugging face token
 
             String prompt = buildPrompt(routes, best);
 
